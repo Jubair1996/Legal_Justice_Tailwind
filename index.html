@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome Links -->
+    <script
+      src="https://kit.fontawesome.com/f17fe590ba.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon Links -->
+    <link
+      rel="shortcut icon"
+      href="./images/business.png"
+      type="image/x-icon"
+    />
+    <!-- Daisy UI Links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Tailwind CSS Links -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Tailwind CSS Links -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            backgroundImage: {
+              "hero-bg": "url('./images/banner.png')",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .poppins {
+        font-family: "Poppins", sans-serif;
+      }
+      .eb-garamond {
+        font-family: "EB Garamond", serif;
+      }
+    </style>
+    <title>Legal Justice</title>
+  </head>
+  <body>
+    <!-- Header Section Starts -->
+    <header>
+      <!-- Navbar Starts -->
+      <nav class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-5">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-[#707070] font-normal poppins"
+              >
+                <li><a>Home</a></li>
+                <li>
+                  <a>Services <i class="fa-solid fa-greater-than"></i></a>
+                </li>
+                <li>
+                  <a>Cases <i class="fa-solid fa-greater-than"></i></a>
+                </li>
+                <li>
+                  <a>Blogs <i class="fa-solid fa-greater-than"></i></a>
+                </li>
+                <li>
+                  <a>Contacts <i class="fa-solid fa-greater-than"></i></a>
+                </li>
+              </ul>
+            </div>
+            <img src="./images/logo2.png" alt="" />
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul
+              class="menu menu-horizontal px-1 text-[#707070] font-normal poppins"
+            >
+              <li><a>Home</a></li>
+              <li>
+                <a>Services <i class="fa-solid fa-greater-than"></i></a>
+              </li>
+              <li>
+                <a>Cases <i class="fa-solid fa-greater-than"></i></a>
+              </li>
+              <li>
+                <a>Blogs <i class="fa-solid fa-greater-than"></i></a>
+              </li>
+              <li>
+                <a>Contacts <i class="fa-solid fa-greater-than"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn bg-[#B68C5A] border-0 text-white"
+              >Free Consultation</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar Ends -->
+      <!-- Banner Section Starts -->
+      <div class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 mb-5">
+        <div class="hero min-h-[calc(100vh-66px)] bg-hero-bg">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-4xl font-bold eb-garamond">
+                We Provide Effective Legal Solutions
+              </h1>
+              <p class="mb-5 text-base font-normal poppins">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <input
+                type="text"
+                placeholder="Search your services"
+                class="input input-bordered w-full max-w-xs mb-4"
+              />
+              <button class="btn border-0 bg-[#B68C5A] text-white poppins">
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Banner Section Ends -->
+    </header>
+    <!-- Header Section Ends -->
+    <main>
+      <!-- The Legal Practice Area Starts -->
+      <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 mb-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Card One -->
+          <div class="text-center space-y-2">
+            <div class="flex justify-center items-center">
+              <img src="./images/business.png" alt="" />
+            </div>
+            <h2 class="text-[#414040] text-3xl font-bold eb-garamond">Business Law</h2>
+            <p class="poppins text-base text-[#707070]">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <div class="flex justify-center items-center">
+              <img src="./images/Frame.png" alt="" />
+            </div>
+          </div>
+          <!-- Card Two -->
+          <div class="text-center space-y-2">
+            <div class="flex justify-center items-center">
+              <img src="./images/business.png" alt="" />
+            </div>
+            <h2 class="text-[#414040] text-3xl font-bold eb-garamond">Business Law</h2>
+            <p class="poppins text-base text-[#707070]">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <div class="flex justify-center items-center">
+              <img src="./images/Frame.png" alt="" />
+            </div>
+          </div>
+          <!-- Card Three -->
+          <div class="text-center space-y-2">
+            <div class="flex justify-center items-center">
+              <img src="./images/business.png" alt="" />
+            </div>
+            <h2 class="text-[#414040] text-3xl font-bold eb-garamond">Business Law</h2>
+            <p class="poppins text-base text-[#707070]">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <div class="flex justify-center items-center">
+              <img src="./images/Frame.png" alt="" />
+            </div>
+          </div>
+          <!-- Card Four -->
+          <div class="text-center space-y-2">
+            <div class="flex justify-center items-center">
+              <img src="./images/business.png" alt="" />
+            </div>
+            <h2 class="text-[#414040] text-3xl font-bold eb-garamond">Business Law</h2>
+            <p class="poppins text-base text-[#707070]">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <div class="flex justify-center items-center">
+              <img src="./images/Frame.png" alt="" />
+            </div>
+          </div>
+          <!-- Card Five -->
+          <div class="text-center space-y-2">
+            <div class="flex justify-center items-center">
+              <img src="./images/business.png" alt="" />
+            </div>
+            <h2 class="text-[#414040] text-3xl font-bold eb-garamond">Business Law</h2>
+            <p class="poppins text-base text-[#707070]">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <div class="flex justify-center items-center">
+              <img src="./images/Frame.png" alt="" />
+            </div>
+          </div>
+          <!-- Card Six -->
+          <div class="text-center space-y-2">
+            <div class="flex justify-center items-center">
+              <img src="./images/business.png" alt="" />
+            </div>
+            <h2 class="text-[#414040] text-3xl font-bold eb-garamond">Business Law</h2>
+            <p class="poppins text-base text-[#707070]">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <div class="flex justify-center items-center">
+              <img src="./images/Frame.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- The Legal Practice Area Ends -->
+    </main>
+    <footer></footer>
+  </body>
+</html>
